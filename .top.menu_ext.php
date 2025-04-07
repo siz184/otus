@@ -370,7 +370,7 @@ if (
 {
 	$arMenuB24[] = [
 		Loc::getMessage('TOP_MENU_IM_MESSENGER_COLLAB'),
-		'/online/?IM_COLLAB=0',
+		'/online/?IM_COLLAB',
 		[],
 		[
 			'menu_item_id' => 'menu_im_collab',
