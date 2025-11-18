@@ -13,3 +13,11 @@ $eventManager->AddEventHandler(
         'GetUserTypeDescription'
     ]
 );
+
+$eventManager->AddEventHandler(
+    'main',
+    'OnEpilog',
+    function(){
+        Bitrix\Main\UI\Extension::load("extensions.workday");
+    }
+);
