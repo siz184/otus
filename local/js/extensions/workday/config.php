@@ -5,7 +5,8 @@ return [
         './extension.js',
     ],
     'rel' => [
-        'popup'
+        'popup',
+        'ajax',
     ]
     // 'bundle' => true,
 ];
