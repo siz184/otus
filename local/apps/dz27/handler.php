@@ -16,7 +16,7 @@ if(!empty($_POST['data']['FIELDS']['ID'])){
 			[
 				'id' => $result['result']['OWNER_ID'],
 				'fields' => [
-					'UF_CRM_1770047640805' => date('d.m.Y')
+					'UF_CRM_1770126208971' => date('d.m.Y H:i:s')
 				]
 			]
 		);
