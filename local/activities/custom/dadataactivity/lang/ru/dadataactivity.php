@@ -1,0 +1,3 @@
+<?
+$MESS ['INN_DADATA_ACTIVITY_FIELD_SUBJECT'] = "ИНН";
+?>
